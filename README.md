@@ -7,14 +7,14 @@ PCIMs are described in
 Asela Gunawardana, Christopher Meek, and Puyang Xu.
 A Model for Temporal Dependencies in Event Streams
 NIPS 2011.
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/poster__nips_pcim.pdf
+https://papers.nips.cc/paper/4395-a-model-for-temporal-dependencies-in-event-streams.pdf
 
 and
 C-PCIMs are described in
 Ankur P. Parikh, Asela Gunawardana, and Christopher Meek
 Conjoint Modeling of Temporal Dependencies in Event Streams
 UAI Bayesian Modelling Applications Workshop, 2012.
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/semco.pdf
+http://ceur-ws.org/Vol-962/paper08.pdf
 
 Implementation by Christian Shelton.
 

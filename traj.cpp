@@ -56,13 +56,15 @@ void printdynamic(ostream &os, const traj &tr, bool incolumns, bool ishrs) {
 		if (incolumns) {
 			printtime(os,t,colw,ishrs);
 			for(int j=0;j<i;j++) os << "|          ";
-			os << "|" << setw(colw) << it[i]->second.v;
+			//os << "|" << setw(colw) << it[i]->second;
+			os << "|" << setw(colw) << "X";
 			for(int j=i+1;j<varid.size();j++) os << "|          ";
 			os << endl;
 		} else {
 			os << setw(4) << i << " @ ";
 			printtime(os,t,colw,ishrs);
-			os << " " << setw(colw) << it[i]->second.v << endl;
+			//os << " " << setw(colw) << it[i]->second;
+			os << endl;
 		}
 		if (++it[i] == tr[varid[i]].end()) ndone++;
 	}
