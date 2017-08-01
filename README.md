@@ -1,5 +1,5 @@
-pcim
-====
+pcim-plain
+==========
 
 An implementation of PCIMs and C-PCIMs
 
